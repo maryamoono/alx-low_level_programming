@@ -14,6 +14,10 @@ int main(void)
 		{
 			putchar(a);
 		}
+		else
+		{
+			a++;
+		}
 		a++;
 	}
 	putchar('\n');
