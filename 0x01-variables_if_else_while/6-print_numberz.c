@@ -1,8 +1,9 @@
-#include<stdio.h>
-/*
+#include <stdio.h>
+
+/**
  * main - Entry point
  *
- *Description:Print numbers 0-10
+ * Description:Print numbers 0-10
  *
  * Return: Always 0 (success)
  */
