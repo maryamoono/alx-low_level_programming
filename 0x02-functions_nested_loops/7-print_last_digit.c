@@ -2,11 +2,11 @@
 /**
  *print_last_digit - prints the last digit of a number
  *
- *@i: The number to be treated
+ *@n: The character in ASCII code
  *
  *Return: iiiii
  */
-int print_last_digit(int i)
+int print_last_digit(int n)
 {
 	int l;
 
@@ -20,4 +20,5 @@ int print_last_digit(int i)
 	{
 	_putchar(1 + 48);
 	return (1);
+	}
 }
