@@ -1,29 +1,29 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * more_numbers - i an integer has to be check
- *
- * Return: void
+ *  *  more_numbers - check the code
+ *   *
+ *    * Return: Always 0.
  */
 void more_numbers(void)
 {
-	int i, j;
+	int i;
+	int s;
 
-	j = 0;
-	while (j < 10)
+	i = 0;
+
+	while (i < 10)
 	{
-		i = 0;
-		while (i < 15)
+		s = 0;
+		while (s < 15)
 		{
-			if (i > 9)
+			if (s >= 10)
 			{
-				i = i / 10;
-				_putchar('0' + i);
+				_putchar('0' + s / 10);
 			}
-			_putchar('0' + (i % 10));
-			i++;
+			_putchar('0' + s % 10);
+			s++;
 		}
-		putchar('\n');
-		j++;
+		_putchar('\n');
+		i++;
 	}
 }
