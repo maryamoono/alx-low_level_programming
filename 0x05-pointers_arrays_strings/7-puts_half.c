@@ -3,7 +3,7 @@
 #include "stdio.h"
 /**
  * puts_half -the code must check
- * 
+ *
  * @str:
  *
  * Return: No
