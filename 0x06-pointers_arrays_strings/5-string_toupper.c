@@ -1,5 +1,4 @@
 #include "main.h"
-#include "string.h"
 /**
  * string_toupper - has aparameter called @n
  * @i: stringlllllmlkkkeokdsokd
