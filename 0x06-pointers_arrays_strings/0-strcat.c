@@ -1,5 +1,5 @@
 #include "main.h"
-#include "string.h"
+#include <string.h>
 /**
  * _strcat - tow strings
  * @dest: the code
@@ -9,19 +9,13 @@
 char *_strcat(char *dest, char *src)
 {
 	int m = 0;
-	int s = 0;
+	int i = strlen(dest);
 
-	while (dest[m] != '\0')
+	while (src[m] != '\0')
 	{
+		dest[i] = src[m];
 		m++;
+		i++;
 	}
-	m++;
-	while (src[s] != '\0')
-	{
-		dest[m] = src[s];
-		s++;
-		m++;
-	}
-	dest[s] = '\0';
 	return (dest);
 }
