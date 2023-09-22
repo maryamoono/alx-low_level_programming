@@ -1,27 +1,27 @@
 #include "main.h"
 #include "string.h"
 /**
- * *_stract =  tow strings
- * @dest= the code
- * @src= another code
- * Return= dest
+ * _strcat - tow strings
+ * @dest: the code
+ * @src: another code
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
-	int m;
-	int s;
-	
-	m = 0;
+	int m = 0;
+	int s = 0;
+
 	while (dest[m] != '\0')
 	{
 		m++;
 	}
-	while ( src[s] != '\0')
+	m++;
+	while (src[s] != '\0')
 	{
-		s = 0;
-
-		s++;
 		dest[m] = src[s];
+		s++;
+		m++;
 	}
+	dest[s] = '\0';
 	return (dest);
 }
