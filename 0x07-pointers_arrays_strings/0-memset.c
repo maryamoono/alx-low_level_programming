@@ -1,7 +1,7 @@
 #include "main.h"
 #include "stdio.h"
-/*
- * _memset - hellllllllllllllllllllllllllllllllllllllllo
+/**
+ * _memset - the mmems taht want to check out
  * @s: maryam taheeer
  * @b: ossmamamma taheere
  * @n: who are yo
