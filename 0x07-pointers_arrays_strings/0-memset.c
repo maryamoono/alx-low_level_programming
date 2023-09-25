@@ -1,5 +1,4 @@
 #include "main.h"
-#include "stdio.h"
 /**
  * _memset - the mmems taht want to check out
  * @s: maryam taheeer
