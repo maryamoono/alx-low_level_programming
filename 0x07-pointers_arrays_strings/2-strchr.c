@@ -10,9 +10,9 @@ char *_strchr(char *s, char c)
 	unsigned int h = 0;
 	char *v;
 
-	for (s[h] != '\0')
+	while (s[h] != '\0')
 	{
-		for (s[h] == c)
+		if (s[h] == c)
 		{
 			v = &s[h];
 			return (v);
