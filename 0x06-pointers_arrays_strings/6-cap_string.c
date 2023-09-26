@@ -8,24 +8,25 @@
 
 char *cap_string(char *s)
 {
-	int words = 0;
-	int words[] = {'\t'||'\n'||','||';'||'.'||'!'||'?'||'"'||'('||')'||'{'||'}'};
+	char *cap_string(char *s)
+{
+	int count = 0, y;
+	int sep_words[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
 
-	while (stam[words] >= 97 && stam[words] <= 122)
-		str[words] = str[words] - 32;
-	words++;
-	while (stm[words] != '\0')
+	if (*(s + count) >= 97 && *(s + count) <= 122)
+		*(s + count) = *(s + count) - 32;
+	count++;
+	while (*(s + count) != '\0')
 	{
-		for (q = 0; q < 13; q++)
+		for (y = 0; y < 13; y++)
 		{
-			if (stam[words] == words[q])
+			if (*(s + count) == sep_words[i])
 			{
-				if (str[words] + 1 >= 97 && (str[words] + 1 <= 122)
-					str[words] + 1 = str[words] + 1 - 32;
+				if ((*(s + (count + 1)) >= 97) && (*(s + (count + 1)) <= 122))
+					*(s + (count + 1)) = *(s + (count + 1)) - 32;
 				break;
 			}
 		}
-		words++;
+		count++;
 	}
 	return (s);
-}
