@@ -1,5 +1,5 @@
 #include "main.h"
-#include "string.h"
+#include <string.h>
 /**
  * reverse_array - reverseing strings for check code
  * @n: integer numbers
@@ -7,15 +7,15 @@
  */
 void reverse_array(int *a, int n)
 {
-	int m, s, temp;
+	int v, l, temp;
 
-	for (m = 0 m < n - 1; m++)
+	for (v = 0; v < n - 1; v++)
 	{
-		for (s = m + 1; s > 0; s--)
+		for (l = v + 1; l > 0; l--)
 		{
-			temp = (a + s);
-			a + s = a + s - 1;
-			a + s - 1 = temp;
+			temp = *(a + l);
+			*(a + l) = *(a + (l - 1));
+			*(a + (l - 1)) = temp;
 		}
 	}
 }

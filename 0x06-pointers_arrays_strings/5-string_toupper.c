@@ -1,19 +1,19 @@
 #include "main.h"
 /**
  * string_toupper - has aparameter called @n
- * @i: stringlllllmlkkkeokdsokd
- * Return: i
+ * @m: stringlllllmlkkkeokdsokd
+ * Return: m
  */
-char *string_toupper(char *i)
+char *string_toupper(char *m)
 {
-	int m = 0;
+	int lamon = 0;
 
-	if (i[m] != '\0')
+	while (*(m + lamon) != '\0')
 	{
-		if (i[m] >= 97 && i[m] <= 122)
-			i[m] = i[m] - 32;
-		m++;
+		if ((*(m + lamon) >= 97) && (*(m + lamon) <= 122))
+			*(m + lamon) = *(m + lamon) - 32;
+		lamon++;
 	}
 
-	return (i);
+	return (m);
 }
