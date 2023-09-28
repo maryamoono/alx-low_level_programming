@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strlen_recursion - lenghth of lenght that i dont know
+ * _strlen_recursion - lenghth of lenght
  * @s: hey lovley
  * return: always there
  */
@@ -10,5 +10,5 @@ int _strlen_recursion(char *s)
 	{
 		return ('\0');
 	}
-	return (1 + _strlen_recursion(s +1));
+	return (1 + _strlen_recursion(s + 1));
 }
