@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _pow_recursion - jkehkwhekhkh
+ * _pow_recursion - rutun x rise to y
  * @x: nhuytgfvr
  *
  * @y:mslamslams
