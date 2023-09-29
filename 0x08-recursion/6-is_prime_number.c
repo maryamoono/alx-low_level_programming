@@ -3,7 +3,7 @@
  * is_prime - mksldmlkdmmds
  * @s: ds,dls,d
  * @m: sd,sld,l
- * Return: l;a;;lllsasl;asl
+ * Return: ujm
  */
 int is_prime(unsigned int s, unsigned int m)
 {
