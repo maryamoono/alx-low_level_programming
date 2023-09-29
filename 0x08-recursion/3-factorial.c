@@ -2,7 +2,7 @@
 /**
  * factorial - mathmatic declarion
  * @n: numbeeeerrrr
- * return: 1 or 0 0r -1
+ * Return: 1 or 0 0r -1
  */
 int factorial(int n)
 {

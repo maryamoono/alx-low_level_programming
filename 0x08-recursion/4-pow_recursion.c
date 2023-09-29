@@ -4,7 +4,7 @@
  * @x: nhuytgfvr
  *
  * @y:mslamslams
- * return: mn
+ * Return: mn
  */
 int _pow_recursion(int x, int y)
 {

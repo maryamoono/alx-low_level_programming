@@ -2,7 +2,7 @@
 /**
  * _strlen_recursion - lenghth of lenght
  * @s: hey lovley
- * return: always there
+ * Return: always there
  */
 int _strlen_recursion(char *s)
 {
