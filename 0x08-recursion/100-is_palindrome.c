@@ -15,7 +15,7 @@ int _strlen_recursion(char *s)
 /**
  * comparator - return va
  * @m: efl.d
- * @s: sam
+ * @s1: sam
  * @s2: dls
  * Return: kmo
  */
