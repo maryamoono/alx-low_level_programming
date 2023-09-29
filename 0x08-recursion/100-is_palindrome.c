@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strlen_recursion - dekdekd;ke;d
- * @s: demkelkdl;k;
- * Return: deeldl;;;l
+ * _strlen_recursion - no more signal
+ * @s: after this error
+ * Return: we ca
  */
 int _strlen_recursion(char *s)
 {
@@ -13,11 +13,11 @@ int _strlen_recursion(char *s)
 }
 
 /**
- * comparator - nm,n,mn,sn
- * @m: efl.mf.mf.mf.
- * @s1: mlkmlkm
- * @s2: dede;ld,;e,d;e
- * Return: mdlmdlemdl
+ * comparator - return va
+ * @m: efl.d
+ * @s: sam
+ * @s2: dls
+ * Return: kmo
  */
 int comparator(char *m, int s1, int s2)
 {
@@ -31,9 +31,9 @@ int comparator(char *m, int s1, int s2)
 }
 
 /**
- * is_palindrome - sla,sla,sl,sl;s,;
- * @s: lkjslkoaks
- * Return: amslasmlksm
+ * is_palindrome - the checker code
+ * @s: plin
+ * Return: as told
  */
 int is_palindrome(char *s)
 {
