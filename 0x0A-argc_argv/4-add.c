@@ -4,14 +4,14 @@
 /**
  * main - nknkdnw
  * @argv: jkhj
- * @argv: nnkl
+ * @argc: nnkl
  * Return: effjljfgn
  */
 int main(int argc, char *argv[])
 {
 	int lemon = 0;
 	int r;
-	int e;
+	unsigned long int e;
 
 	for (r = 1 ; r < argc ; r++)
 	{
