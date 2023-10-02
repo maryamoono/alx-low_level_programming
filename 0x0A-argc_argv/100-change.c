@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - dmelkfjefkfjkjf
- * @argv: efelfklekfl
+ * main - i want to know
+ * @argv: if there any way
  *
- * @argc: ke;kf;elf;lf
- * Return: lel;kf;elf;l
+ * @argc: to get the fo
+ * Return: nbjmh mk
  */
 int main(int argc, char *argv[])
 {
@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 	}
 	for (r = 0 ; r < 5 ; r++)
 	{
-                lemon += e / array[r];
+		lemon += e / array[r];
 		e = e % array[r];
 	}
 	printf("%d\n", lemon);
