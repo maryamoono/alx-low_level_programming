@@ -3,7 +3,7 @@
 /**
  * main - jdksjdksjdks
  * @argc: xsbjhjsxs
- * @atoi: jwkdjkdj
+ *
  * @argv: bgtrfv
  * Return: kjskqjsk
  */
@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		printf("%d\n", atoi(argv[6]) * atoi(argv[7]));
+		printf("%d\n", atoi(argv[2]) * atoi(argv[3]));
 		return (0);
 	}
 }
