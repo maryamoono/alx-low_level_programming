@@ -9,7 +9,7 @@
  */
 void ch_free_grid(char **grid, unsigned int height)
 {
-	if (grid != 0 && height != NULL)
+	if (grid != 0 && height != 0)
 	{
 		for (; height > 0; height--)
 			free(grid[height]);
@@ -32,7 +32,7 @@ char **strtow(char *str)
 	for (m = joy = 0; str[m] != '\0'; m++)
 		if (str[m] != ' ' && (str[m + 1] == ' ' || str[m + 1] == '\0'))
 			joy++;
-	aout = malloc((joy + 1) * sizeof(char *));
+	fam = malloc((joy + 1) * sizeof(char *));
 	if (fam == NULL || joy == 0)
 	{
 		free(fam);
@@ -57,7 +57,7 @@ char **strtow(char *str)
 		}
 		for (y = 0; sh <= m; sh++, y++)
 			fam[o][y] = str[sh];
-		aout[o][y] = '\0';
+		fam[o][y] = '\0';
 	}
 	fam[o] = NULL;
 	return (fam);
