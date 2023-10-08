@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * malloc_checked - kjlwjdl nhn 
+ * malloc_checked - kjlwjdl nhn
  * @b: the swlk
  * Return: mk
  */
