@@ -21,12 +21,11 @@ int _strlen(char *str)
 
 	return (ss);
 }
-
 /**
- * _strcopy - dlekkpel
- * @dest: wijdudiueh
- * @src: dkdekdpkpkfe
- * Return: mvnfjfgu
+ * _strcopy - thers is any thing son
+ * @dest: not even can be my secrt
+ * @src: dkj fhnvy ldjf
+ * Return: mkl
  */
 char *_strcopy(char *dest, char *src)
 {
