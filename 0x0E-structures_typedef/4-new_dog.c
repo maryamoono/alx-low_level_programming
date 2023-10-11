@@ -43,7 +43,7 @@ char *_strcopy(char *dest, char *src)
 /**
  * new_dog - ekfl;llf
  * @name: ijoiwueoipie
- * @age: kekf;ekf;
+ * @age: how whever it takes
  * @owner: ekfekkf
  * Return: uoeuoe
  */
