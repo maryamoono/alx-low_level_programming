@@ -22,8 +22,8 @@ int _strlen(char *str)
 	return (ss);
 }
 /**
- * _strcopy - thers is any thing son
- * @dest: not even can be my secrt
+ * _strcopy - thers is any thing son enkfnknflhkhf fkrnfkj eyeu
+ * @dest: not even can be my secrtfl kfkhjfhk klfjlj
  * @src: dkj fhnvy ldjf
  * Return: mkl
  */
