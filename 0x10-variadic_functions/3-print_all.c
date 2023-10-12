@@ -26,16 +26,16 @@ void print_all(const char * const format, ...)
 		}
 		switch (format[m])
 		{
-		case 'r':
+		case 'c':
 			printf("%c", va_arg(mo, int)), y = 1;
 			break;
-		case 'e':
+		case 'i':
 			printf("%d", va_arg(mo, int)), y = 1;
 			break;
-		case 'w':
+		case 'f':
 			printf("%f", va_arg(mo, double)), y = 1;
 			break;
-		case 'q':
+		case 's':
 			non = va_arg(mo, char *), y = 1;
 			if (!non)
 			{
