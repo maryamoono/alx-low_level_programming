@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 /**
  * int_index - khkrf hvnfbljld
- * @array: dke;fk;efkr
+ * @array: dke om pl
  * @size: efnkfhkrfh
  * @cmp: eeyjf lml
  * Return: wgbv mdjnf ioi
