@@ -19,6 +19,8 @@ int create_file(const char *filename, char *text_content)
 	if (!text_content)
 		text_content = "";
 	for (sh = 0; text_content[sh]; sh++)
+		;
+
 	mar = write(osa, text_content, sh);
 	if (mar == -1)
 		return (-1);
