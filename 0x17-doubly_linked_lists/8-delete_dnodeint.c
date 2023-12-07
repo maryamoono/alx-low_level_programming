@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * delete_dnodeint_at_index - i wluld love to 
+ * delete_dnodeint_at_index - i wluld love to
  * @head: hond
  * @index: cssdvv
  * Return: 0
