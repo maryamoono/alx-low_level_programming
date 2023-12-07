@@ -1,51 +1,26 @@
 #include "lists.h"
 /**
- * insert_dnodeint_at_index - vfcdx
- * @h: hello
- * @idx: how are u
- * @n: vfcgoof
- * Return: fdc
+ * sum_dlistint - no one wil relize
+ * @head: cvdftop
+ * Return: 0 nb
  */
-dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
+int sum_dlistint(dlistint_t *head)
 {
-	dlistint_t *old;
-	dlistint_t *head;
-	unsigned int v;
+	int hmo;
 
-	old = NULL;
-	if (idx == 0)
-		old = add_dnodeint(h, n);
-	else
+	hmo = 0;
+
+	if (head != NULL)
 	{
-		head = *h;
-		v = 1;
-		if (head != NULL)
-			while (head->prev != NULL)
-				head = head->prev;
+		while (head->prev != NULL)
+			head = head->prev;
+
 		while (head != NULL)
 		{
-			if (v == idx)
-			{
-				if (head->next == NULL)
-					old = add_dnodeint_end(h, n);
-				else
-				{
-					old = malloc(sizeof(dlistint_t));
-					if (old != NULL)
-					{
-						old->n = n;
-						old->next = head->next;
-						old->prev = head;
-						head->next->prev = old;
-						head->next = old;
-					}
-				}
-				break;
-			}
+			hmo += head->n;
 			head = head->next;
-			v++;
 		}
 	}
 
-	return (old);
+	return (hmo);
 }
