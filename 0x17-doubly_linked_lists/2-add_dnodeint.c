@@ -1,29 +1,30 @@
 #include "lists.h"
 /**
- * add_dnodeint - vcfd jnuy
- * @head: rkol cool
- * @n: ys rap
- * Return: rapy
+ * add_dnodeint - srhysn
+ *
+ * @head: ryujryuj
+ * @n: dfhjnaaaaa
+ * Return: 0
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
-	dlistint_t *old;
-	dlistint_t *v;
+	dlistint_t *new;
+	dlistint_t *h;
 
 	new = malloc(sizeof(dlistint_t));
-	if (old == NULL)
+	if (new == NULL)
 		return (NULL);
-	old->n = n;
-	old->prev = NULL;
-	v = *head;
-	if (v != NULL)
+	new->n = n;
+	new->prev = NULL;
+	h = *head;
+	if (h != NULL)
 	{
-		while (v->prev != NULL)
-			v = v->prev;
+		while (h->prev != NULL)
+			h = h->prev;
 	}
-	old->next = v;
-	if (v != NULL)
-		v->prev = old;
-	*head = old;
-	return (old);
+	new->next = h;
+	if (h != NULL)
+		h->prev = new;
+	*head = new;
+	return (new);
 }
